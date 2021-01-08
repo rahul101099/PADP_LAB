@@ -73,5 +73,3 @@ int main(int argc, char *argv[])
 	gdImageDestroy(img);
 	return 0;
 }
-//run gcc -fopenmp image.c -lgd
-//./a.out in.png out.png
