@@ -10,7 +10,6 @@ void check(int **arr1, int **arr2){
 	
 	for(i = 0;i < r; i++){
 		for(j = 0;j < c; j++){
-			//arr1[i][j] = (rand()/r)%5;
 			printf("%d ",arr1[i][j]);
 		}
 		printf("\n");
@@ -18,7 +17,6 @@ void check(int **arr1, int **arr2){
 	printf("\n MATRIX II \n");
 	for(i = 0;i < r; i++){
 		for(j = 0;j < c; j++){
-			//arr2[i][j] = (rand()/r)%5;
 			printf("%d ",arr2[i][j]);
 		}
 		printf("\n");
@@ -94,7 +92,6 @@ int main(){
 
 
 		printf("%d\t\t",r);
-		//printf("%lf\t\t", y-x);
 		for(int p=1;p<=8;p=p*2)
 		{
 			double x = omp_get_wtime();
